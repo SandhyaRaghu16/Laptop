@@ -5,8 +5,6 @@ import java.util.Optional;
 import java.util.stream.Collectors;
 
 import javax.naming.NameNotFoundException;
-
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -68,7 +66,6 @@ public class LaptopService {
 		{
 			return ld.getByBrand(brand);
 		}
-		//return ld.getByBrand(brand);
 		
 		
 	}
